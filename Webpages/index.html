@@ -6,8 +6,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="/Style Files/index.css">
+    <link rel="stylesheet" href="/Style Files/Navbar.css">
+    <link rel="stylesheet" href="/Style Files/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/Script Files/Navbar.js"></script>
+    <script src="/Script Files/index.js"></script>
 </head>
 <body>
-    
+    <section id="Navbar">
+        <div class="Navbar-container">
+            <div class="Navbar-logo-container">
+                <a href="/Webpages/index.html"><img class="Navbar-logo" src="/Assets/Phantom-New-Logo_1.png" alt="logo"></a>
+                
+            </div>
+            <div class="navigation-container">
+                <ul class="nav-tabs-list">
+                    <a href="/Webpages/index.html" class="nav-tab active">Home</a>
+                    <a href="/Webpages/aerosols.html" class="nav-tab">Aerosols</a>
+                    <a href="/Webpages/accessories.html" class="nav-tab">Accessories</a>
+                    <a href="/Webpages/kits.html" class="nav-tab">Kits</a>
+                    <a href="/Webpages/clearance.html" class="nav-tab">Clearance</a>
+                </ul>
+                <div class="extras-container">
+                    <input type="text" class="search-bar" placeholder="Search our Inventory">
+                    <a href="/Webpages/searchResults.html" class="search">
+                        <i class="fa-solid fa-magnifying-glass Navbar-icons"></i>
+                    </a>
+                    <a href="" class="cart-icon">
+                        <i class="fa-solid fa-cart-shopping Navbar-icons"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-media">
+        <div class="main-media-container">
+            <img src="/Assets/audi-r8.jpg" alt="" class="media">
+        </div>
+    </section>
+    <section id="product-showcase">
+        <div class="products-wrapper">
+            <h1 class="product-title">View our <span class="red-text">Inventory</span></h1>
+            <div class="products-container">
+                <div class="product-containers product-showcase-containers" onclick="window.location='/Webpages/aerosols.html'">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/aerosols.png" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Aerosols</h1>
+                    <a href="/Webpages/aerosols.html" class="view-products">View Products</a>
+                </div>
+                <div class="product-containers product-showcase-containers" onclick="window.location='/Webpages/accessories.html'">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/accessories.jpg" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Accessories</h1>
+                    <a href="/Webpages/accessories.html" class="view-products">View Products</a>
+                </div>
+                <div class="product-containers product-showcase-containers" onclick="window.location='/Webpages/kits.html'">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/kits.png" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Kits</h1>
+                    <a href="/Webpages/kits.html" class="view-products">View Products</a>
+                </div>
+                <div class="product-containers product-showcase-containers" onclick="window.location='/Webpages/clearance.html'">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/clearance.jpg" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Clearance</h1>
+                    <a href="/Webpages/clearance.html" class="view-products">View Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="featured-products">
+        <div class="products-wrapper featured-products-wrapper">
+            <h1 class="product-title">View our <span class="red-text">Featured Products</span></h1>
+            <div class="products-container">
+                <div class="product-containers featured-products-containers">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/gloss-black.png" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Gloss Black Aerosol</h1>
+                    <a href="/Webpages/product.html" class="view-products view-product">View Product</a>
+                </div>
+                <div class="product-containers featured-products-containers">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/matte-black.png" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Matte Black Aerosol</h1>
+                    <a href="/Webpages/product.html" class="view-products view-product">View Product</a>
+                </div>
+                <div class="product-containers featured-products-containers">
+                    <figure class="product-img-wrapper">
+                        <img src="/Assets/aerosols.png" alt="" class="product">
+                    </figure>
+                    <h1 class="product-name">Matte White Aerosol</h1>
+                    <a href="/Webpages/product.html" class="view-products view-product">View Product</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="applications">
+        <div class="applications-wrapper">
+            <h1 class="applications-title">Applications of <span class="red-text">Plasti Dip</span></h1>
+            <div class="application-container">
+                <figure class="app-img-wrapper">
+                    <img src="/Assets/rim-dip.jpg" alt="" class="app-img">
+                </figure>
+                <div class="description-container">
+                    <h1 class="app-title">Rims</h1>
+                    <p class="app-description">Write something here about dipping rims</p>
+                    <a href="https://www.youtube.com/watch?v=5wIGZx2bCkU" target="_blank" class="video">Plasti Dip Rims Tutorial</a>
+                </div>
+            </div>
+            <div class="application-container">
+                <figure class="app-img-wrapper">
+                    <img src="/Assets/badge-dip.jpg" alt="" class="app-img">
+                </figure>
+                <div class="description-container">
+                    <h1 class="app-title">Badges/Emblems</h1>
+                    <p class="app-description">Write something here about dipping emblems</p>
+                    <a href="https://www.youtube.com/watch?v=FV_ULUKno5w" target="_blank" class="video">Plasti Dip Emblems Tutorial</a>
+                </div>
+            </div>
+            <div class="application-container">
+                <figure class="app-img-wrapper">
+                    <img src="/Assets/car-dip.jpg" alt="" class="app-img">
+                </figure>
+                <div class="description-container">
+                    <h1 class="app-title">Entire Car</h1>
+                    <p class="app-description">Write something about dipping cars</p>
+                    <a href="https://www.youtube.com/watch?v=G7for7PD5bw" target="_blank" class="video">Plasti Dip Car Tutorial</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="footer-container">
+            <figure class="logo-container">
+                <img src="/Assets/Phantom-New-Logo_1.png" alt="" class="logo">
+            </figure>
+            <div class="bottom-footer-container">
+                <div class="contact-info">
+                    <span class="contact-title">Contacts</span>
+                    <span class="contact">(416) 628-5465</span>
+                    <span class="contact">info@phantomautos.com</span>
+                    <span class="contact">180 Nantucket Blvd</span>
+                    <span class="contact">Unit 1 Scarborough, ON</span>
+                </div>
+                <div class="quick-links">
+                    <span class="quick-links-title">Quick Links</span>
+                    <a href="/Webpages/index.html" class="link">Home</a>
+                    <a href="/Webpages/aerosols.html" class="link">Aerosols</a>
+                    <a href="/Webpages/accessories.html" class="link">Accessories</a>
+                    <a href="/Webpages/kits.html" class="link">Kits</a>
+                    <a href="/Webpages/clearance.html" class="link">Clearance</a>
+                </div>
+                <div class="social-media">
+                    <span class="social-media-title">Follow Us</span>
+                    <span class="tag">@phantomautos</span>
+                    <div class="social-media-logos">
+                        <i class="fa-brands fa-tiktok sm-icon"></i>
+                        <i class="fa-brands fa-instagram sm-icon"></i>
+                        <i class="fa-brands fa-square-facebook sm-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
+
+<!-- 
+    To sort the products:
+    sort products in lists with names of the tabs
+    then make an 'all' list with all three lists (2D-arr)
+    each product will be a class that contains these properties:
+        - image
+        - name
+        - price
+        - description
+        - details (list of characteristics)
+-->
